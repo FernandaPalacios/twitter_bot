@@ -69,61 +69,70 @@ sentiment = function(tweet_sentiments){
 name = nytimes
 
 anger_response = function(tweet.txt) {
-  responses = c("I'm angry!", "This is ridiculous!", "I'm FURIOUS!", "FUCK THIS!!", "BULLSHIT!!", "You cunt!", "Go fuck yourself!")
+  responses = c("I'm angry!", "This is ridiculous!", "I'm FURIOUS!", "FUCK THIS!!", "BULLSHIT!!",
+  "What the fuck?!", "I HATE THIS")
   response = sample(responses, size =1)
   
 }
 
 anticipation_response = function(tweet.txt) {
-  responses = c("Looking forward to it!", "I've been waiting forever.", "Finally happening", "Fiesta", "Fuck yeah!")
+  responses = c("Looking forward to it!", "I've been waiting forever.", "This is finally happening...",
+  "Fiesta", "Fuck yeah!", "I'm ready for this.")
   response = sample(responses, size =1)
   
 }
 
 disgust_response = function(tweet.txt) {
-  responses = c("This makes me wanna vomit", "Disgusting", "Repulsive", "Why do such things exist", "eww")
+  responses = c("This makes me wanna vomit", "Disgusting", "Repulsive", "Why do such things exist",
+  "Eww", "This is gross.")
   response = sample(responses, size =1)
   
 }
 
 fear_response = function(tweet.txt) {
-  responses = c("Scary", "Holy shit", "SOS", "Peeing in my pants", "Mama", "Horrifying")
+  responses = c("Scary", "Holy shit", "SOS", "Peeing in my pants", "I want my mom...",
+  "Horrifying", "I'm scared...", "This stresses me out!!")
   response = sample(responses, size =1)
   
 }
 
 joy_response = function(tweet.txt) {
-  responses = c("YAY", "Hoorah", "This calls for a celebration!", "Happy to see that", "Lekker!")
+  responses = c("YAY", "Hoorah!", "This calls for a celebration!", "Happy to see this!!",
+  "Lekker!", "Best news I've read all day!")
   response = sample(responses, size =1)
   
 }
 
 negative_response = function(tweet.txt) {
-  responses = c("Sucks", "I hate this.", "Horrible", "Someone needs to do something about it!", "Disappointed")
+  responses = c("This sucks", "I hate this.", "Horrible", "Someone needs to do something about this.",
+  "Disappointed", "This is bad news.", "I wish I never read this")
   response = sample(responses, size =1)
   
 }
 
 positive_response = function(tweet.txt) {
-  responses = c("Feeling hopeful", "The world is a nice place", "Live, Love, Laugh", "Be grateful", "This is great news")
+  responses = c("Feeling hopeful", "The world is a nice place", "Live, Love, Laugh",
+  "Be grateful", "This is great news!", "This makes me happy")
   response = sample(responses, size =1)
   
 }
 
 sadness_response = function(tweet.txt) {
-  responses = c("I wish this never happened", "That's horrible", "I can't take this anymore", "This world is a sad place.", "Praying")
+  responses = c("I wish this never happened", "That's horrible", "I can't take this anymore",
+  "This world is a sad place.", "Praying", "Worst news I've heard today")
   response = sample(responses, size =1)
   
 }
 
 surprise_response = function(tweet.txt) {
-  responses = c("WOW", "Unbelievable!", "Holy cow!", "WTF?!", "OMG!")
+  responses = c("WOW", "Unbelievable!", "Holy cow!", "WTF?!", "OMG!", "I did NOT expect this")
   response = sample(responses, size =1)
   
 }
 
 trust_response = function(tweet.txt) {
-  responses = c("We've got this", "Feeling good about this", "I believe in this world", "We're better tgt", "All for one and one for all")
+  responses = c("We've got this", "Feeling good about this", "I believe in this world",
+  "We're better together", "All for one and one for all", "This makes me feel better")
   response = sample(responses, size =1)
   
 }

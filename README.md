@@ -4,7 +4,7 @@
 
 ## Method
 
-**Reacts_guy** runs news headlines from _@nytimes_ through a sentiment detection algorithm based on  _nrc_ sentiment scores from the [tidy text package](https://cran.r-project.org/web/packages/tidytext/tidytext.pdf). The twitterbot reads a headline, determines the sentiment evoked by said headline, and returns a sentence in the same sentiment as said headline. 
+**Reacts_guy** runs news headlines from _@nytimes_ through a sentiment detection algorithm based on  _nrc_ sentiment scores from the [tidy text package](https://cran.r-project.org/web/packages/tidytext/tidytext.pdf). The twitterbot reads a headline, determines the mood of the headline, and reacts with a sentence of the same mood. 
 
 ## Deployment
 
